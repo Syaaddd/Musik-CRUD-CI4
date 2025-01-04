@@ -1,0 +1,443 @@
+CRITICAL - 2025-01-04 02:36:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "playlist/index.php"
+[Method: GET, Route: playlist]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('playlist/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 3 APPPATH\Controllers\PlaylistController.php(19): view('playlist/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\crud-ci\\public\\index.php')
+CRITICAL - 2025-01-04 02:40:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "playlist/index.php"
+[Method: GET, Route: playlist]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('playlist/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 3 APPPATH\Controllers\PlaylistController.php(19): view('playlist/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 03:02:41 --> Error: Call to undefined function get_user()
+[Method: GET, Route: /]
+in APPPATH\Views\inc\header.php on line 167.
+ 1 APPPATH\Views\welcome_message.php(94): include()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 03:03:17 --> Error: Call to undefined function get_user()
+[Method: GET, Route: /]
+in APPPATH\Views\inc\header.php on line 167.
+ 1 APPPATH\Views\welcome_message.php(94): include()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 03:03:18 --> Error: Call to undefined function get_user()
+[Method: GET, Route: /]
+in APPPATH\Views\inc\header.php on line 167.
+ 1 APPPATH\Views\welcome_message.php(94): include()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 13:14:01 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 14:21:25 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:59:43 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:59:44 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:00:30 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:03:06 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:04:28 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:05:27 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:08:49 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:10:49 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:10:50 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:10:50 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:10:51 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:10:56 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:14:40 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 51.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 3 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:29:53 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:29:55 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:30:43 --> ErrorException: Undefined variable $playlists
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:30:44 --> ErrorException: Undefined variable $playlists
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:30:44 --> ErrorException: Undefined variable $playlists
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:33:23 --> ErrorException: Undefined variable $playlists
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:33:31 --> ErrorException: Undefined variable $playlists
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:33:32 --> ErrorException: Undefined variable $playlists
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:33:32 --> ErrorException: Undefined variable $playlists
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:35:29 --> ErrorException: Undefined variable $playlists
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:35:31 --> ErrorException: Undefined variable $playlists
+[Method: GET, Route: playlist]
+in APPPATH\Views\playlist\index.php on line 50.
+ 1 APPPATH\Views\playlist\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/index', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(20): view('playlist/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 21:47:46 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: playlist/create]
+in APPPATH\Views\playlist\create.php on line 45.
+ 1 APPPATH\Views\playlist\create.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\create.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\playlist\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/create', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(24): view('playlist/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
