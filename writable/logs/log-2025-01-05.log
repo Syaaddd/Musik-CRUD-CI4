@@ -1,0 +1,1422 @@
+CRITICAL - 2025-01-05 02:01:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "playlist/createplaylist.php"
+[Method: GET, Route: playlist/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('playlist/createplaylist.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist/createplaylist', [], true)
+ 3 APPPATH\Controllers\PlaylistController.php(25): view('playlist/createplaylist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 07:38:07 --> ErrorException: Undefined variable $id
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 63.
+ 1 APPPATH\Views\backend\playlist\playlist.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(23): view('backend/playlist/playlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 07:43:06 --> ErrorException: Undefined variable $id
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 63.
+ 1 APPPATH\Views\backend\playlist\playlist.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(23): view('backend/playlist/playlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 07:44:37 --> ErrorException: Undefined variable $id
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 63.
+ 1 APPPATH\Views\backend\playlist\playlist.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(23): view('backend/playlist/playlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 07:45:10 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/delete/(:num)".
+[Method: GET, Route: playlist]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/delete/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.delete')
+ 3 APPPATH\Views\backend\playlist\playlist.php(63): route_to('playlist.delete')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(23): view('backend/playlist/playlist', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 07:45:13 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/delete/(:num)".
+[Method: GET, Route: playlist]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/delete/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.delete')
+ 3 APPPATH\Views\backend\playlist\playlist.php(63): route_to('playlist.delete')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(23): view('backend/playlist/playlist', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 07:45:13 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/delete/(:num)".
+[Method: GET, Route: playlist]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/delete/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.delete')
+ 3 APPPATH\Views\backend\playlist\playlist.php(63): route_to('playlist.delete')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(23): view('backend/playlist/playlist', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 07:47:42 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 48.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 4 APPPATH\Controllers\PlaylistController.php(24): view('backend/playlist/playlist', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:14:01 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in C:\xampp\htdocs\crud-ci\system\BaseModel.php on line 1875
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(1875): CodeIgniter\BaseModel->timeToString('1')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray('1', 'insert')
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert('1', false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert('1', false)
+ 5 APPPATH\Controllers\PlaylistController.php(61): CodeIgniter\BaseModel->save('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:14:07 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in C:\xampp\htdocs\crud-ci\system\BaseModel.php on line 1875
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(1875): CodeIgniter\BaseModel->timeToString('1')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray('1', 'insert')
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert('1', false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert('1', false)
+ 5 APPPATH\Controllers\PlaylistController.php(61): CodeIgniter\BaseModel->save('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:17:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "playlist.edit"
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('playlist.edit')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist.edit', [], true)
+ 3 APPPATH\Controllers\PlaylistController.php(58): view('playlist.edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:18:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "playlist.edit"
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('playlist.edit')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('playlist.edit', [], true)
+ 3 APPPATH\Controllers\PlaylistController.php(58): view('playlist.edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:22:38 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(58): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:23:20 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(58): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:23:31 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(58): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:26:59 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 56.
+ 1 APPPATH\Views\backend\playlist\playlist.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(28): view('backend/playlist/playlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:26:59 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 56.
+ 1 APPPATH\Views\backend\playlist\playlist.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(28): view('backend/playlist/playlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:27:00 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 56.
+ 1 APPPATH\Views\backend\playlist\playlist.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(28): view('backend/playlist/playlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:27:00 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 56.
+ 1 APPPATH\Views\backend\playlist\playlist.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(28): view('backend/playlist/playlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:27:01 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 56.
+ 1 APPPATH\Views\backend\playlist\playlist.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(28): view('backend/playlist/playlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:27:01 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 56.
+ 1 APPPATH\Views\backend\playlist\playlist.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(28): view('backend/playlist/playlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:27:01 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: playlist]
+in APPPATH\Views\backend\playlist\playlist.php on line 56.
+ 1 APPPATH\Views\backend\playlist\playlist.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\playlist.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 5 APPPATH\Controllers\PlaylistController.php(28): view('backend/playlist/playlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:27:20 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(58): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:29:44 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(64): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:30:25 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(58): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 08:36:19 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(58): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:50:22 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('playlist.update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:50:24 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('playlist.update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:50:24 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('playlist.update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:50:24 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('playlist.update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:50:25 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('playlist.update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:50:25 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('playlist.update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:50:25 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('playlist.update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:50:25 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('playlist.update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:50:46 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('playlist.update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:50:55 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('playlist.update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('playlist.update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:52:24 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:52:24 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:52:25 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:52:29 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 10:55:34 --> InvalidArgumentException: Missing argument for "(:num)" in route "playlist/update/(:num)".
+[Method: GET, Route: playlist/edit/1]
+in SYSTEMPATH\Router\RouteCollection.php on line 1383.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1204): CodeIgniter\Router\RouteCollection->buildReverseRoute('playlist/update/(:num)', [])
+ 2 SYSTEMPATH\Common.php(953): CodeIgniter\Router\RouteCollection->reverseRoute('update')
+ 3 APPPATH\Views\backend\playlist\edit.php(30): route_to('update')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\playlist\\edit.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/edit', [], true)
+ 7 APPPATH\Controllers\PlaylistController.php(57): view('backend/playlist/edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->edit('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-05 11:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-05 11:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-05 11:39:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/playlist/playlist.php"
+[Method: GET, Route: playlist]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/playlist/playlist.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 3 APPPATH\Controllers\PlaylistController.php(28): view('backend/playlist/playlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 11:39:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/playlist/playlist.php"
+[Method: GET, Route: playlist]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/playlist/playlist.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 3 APPPATH\Controllers\PlaylistController.php(28): view('backend/playlist/playlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 11:40:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "backend/playlist/playlist.php"
+[Method: GET, Route: playlist]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/playlist/playlist.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/playlist/playlist', [], true)
+ 3 APPPATH\Controllers\PlaylistController.php(28): view('backend/playlist/playlist', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 11:41:36 --> Error: Object of class App\Controllers\PlaylistController could not be converted to string
+[Method: POST, Route: playlist/delete/2]
+in APPPATH\Controllers\PlaylistController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->delete('2')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 11:42:37 --> Error: Object of class App\Controllers\PlaylistController could not be converted to string
+[Method: POST, Route: playlist/delete/2]
+in APPPATH\Controllers\PlaylistController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlaylistController->delete('2')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-05 15:40:34 --> mysqli_sql_exception: Table 'db_crud_ci4.musiks' doesn't exist in C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\crud-ci\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\crud-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud-ci\app\Controllers\MusikController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(933): App\Controllers\MusikController->index()
+#8 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+#9 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\crud-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\crud-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\crud-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-01-05 15:40:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_crud_ci4.musiks' doesn't exist
+[Method: GET, Route: musik]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `musiks`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MusikController.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 15:40:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_crud_ci4.musiks' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `musiks`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `musiks`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `musiks`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\MusikController.php(23): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 15:40:34 --> [Caused by] mysqli_sql_exception: Table 'db_crud_ci4.musiks' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `musiks`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `musiks`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `musiks`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `musiks`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\MusikController.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-05 15:52:44 --> mysqli_sql_exception: Unknown table 'db_crud_ci4.musiks' in C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musiks`...', 0)
+#1 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`...')
+#2 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`...')
+#3 C:\xampp\htdocs\crud-ci\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`...', Array, false)
+#4 C:\xampp\htdocs\crud-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud-ci\app\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud-ci\app\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+#8 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(933): App\Controllers\MusikController->index()
+#9 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+#10 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-05 15:52:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'db_crud_ci4.musiks'
+[Method: GET, Route: musik]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 15:52:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'db_crud_ci4.musiks'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 15:52:44 --> [Caused by] mysqli_sql_exception: Unknown table 'db_crud_ci4.musiks'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-05 15:53:27 --> mysqli_sql_exception: Unknown table 'db_crud_ci4.musiks' in C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musiks`...', 0)
+#1 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`...')
+#2 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`...')
+#3 C:\xampp\htdocs\crud-ci\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`...', Array, false)
+#4 C:\xampp\htdocs\crud-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud-ci\app\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud-ci\app\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+#8 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(933): App\Controllers\MusikController->index()
+#9 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+#10 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-05 15:53:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'db_crud_ci4.musiks'
+[Method: GET, Route: musik]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 15:53:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'db_crud_ci4.musiks'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 15:53:27 --> [Caused by] mysqli_sql_exception: Unknown table 'db_crud_ci4.musiks'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-05 15:53:28 --> mysqli_sql_exception: Unknown table 'db_crud_ci4.musiks' in C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musiks`...', 0)
+#1 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`...')
+#2 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`...')
+#3 C:\xampp\htdocs\crud-ci\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`...', Array, false)
+#4 C:\xampp\htdocs\crud-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud-ci\app\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud-ci\app\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+#8 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(933): App\Controllers\MusikController->index()
+#9 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+#10 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-05 15:53:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'db_crud_ci4.musiks'
+[Method: GET, Route: musik]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 15:53:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'db_crud_ci4.musiks'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 15:53:28 --> [Caused by] mysqli_sql_exception: Unknown table 'db_crud_ci4.musiks'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-05 15:56:01 --> mysqli_sql_exception: Unknown table 'db_crud_ci4.musiks' in C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musiks`...', 0)
+#1 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`...')
+#2 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`...')
+#3 C:\xampp\htdocs\crud-ci\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`...', Array, false)
+#4 C:\xampp\htdocs\crud-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud-ci\app\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud-ci\app\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+#8 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(933): App\Controllers\MusikController->index()
+#9 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+#10 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-05 15:56:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'db_crud_ci4.musiks'
+[Method: GET, Route: musik]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 15:56:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'db_crud_ci4.musiks'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 15:56:01 --> [Caused by] mysqli_sql_exception: Unknown table 'db_crud_ci4.musiks'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musiks`.*, `playlists`.`name`, `playlists`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musiks`.`playlist_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MusikModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:25:13 --> ErrorException: Undefined array key "Musik"
+[Method: GET, Route: musik]
+in APPPATH\Controllers\MusikController.php on line 27.
+ 1 APPPATH\Controllers\MusikController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Musik"', 'C:\\xampp\\htdocs\\crud-ci\\app\\Controllers\\MusikController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-05 16:30:01 --> mysqli_sql_exception: Unknown column 'playlist.description' in 'field list' in C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musik`....', 0)
+#1 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`....')
+#2 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`....')
+#3 C:\xampp\htdocs\crud-ci\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`....', Array, false)
+#4 C:\xampp\htdocs\crud-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud-ci\app\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud-ci\app\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+#8 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(933): App\Controllers\MusikController->index()
+#9 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+#10 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-05 16:30:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'playlist.description' in 'field list'
+[Method: GET, Route: musik]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:30:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'playlist.description' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:30:01 --> [Caused by] mysqli_sql_exception: Unknown column 'playlist.description' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-05 16:30:41 --> mysqli_sql_exception: Unknown column 'playlist.description' in 'field list' in C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musik`....', 0)
+#1 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`....')
+#2 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`....')
+#3 C:\xampp\htdocs\crud-ci\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`....', Array, false)
+#4 C:\xampp\htdocs\crud-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud-ci\app\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud-ci\app\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+#8 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(933): App\Controllers\MusikController->index()
+#9 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+#10 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-05 16:30:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'playlist.description' in 'field list'
+[Method: GET, Route: musik]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:30:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'playlist.description' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:30:41 --> [Caused by] mysqli_sql_exception: Unknown column 'playlist.description' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name`, `playlist`.`description`
+FROM `musik`
+JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-05 16:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-05 16:36:59 --> ErrorException: Undefined array key "playlist_name"
+[Method: GET, Route: musik]
+in APPPATH\Views\backend\musik\musik.php on line 55.
+ 1 APPPATH\Views\backend\musik\musik.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "playlist_name"', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\musik\\musik.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\musik\\musik.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/musik/musik', [], true)
+ 5 APPPATH\Controllers\MusikController.php(29): view('backend/musik/musik', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:37:41 --> ErrorException: Undefined variable $playlist
+[Method: GET, Route: musik/edit/1]
+in APPPATH\Views\backend\musik\edit.php on line 30.
+ 1 APPPATH\Views\backend\musik\edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\musik\\edit.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\musik\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/musik/edit', [], true)
+ 5 APPPATH\Controllers\MusikController.php(61): view('backend/musik/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-05 16:38:50 --> mysqli_sql_exception: Unknown column 'musik.playlist_id' in 'on clause' in C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musik`....', 0)
+#1 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`....')
+#2 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`....')
+#3 C:\xampp\htdocs\crud-ci\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`....', Array, false)
+#4 C:\xampp\htdocs\crud-ci\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-ci\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud-ci\app\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud-ci\app\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+#8 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(933): App\Controllers\MusikController->index()
+#9 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+#10 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-05 16:38:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'musik.playlist_id' in 'on clause'
+[Method: GET, Route: musik]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:38:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'musik.playlist_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:38:50 --> [Caused by] mysqli_sql_exception: Unknown column 'musik.playlist_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `playlists`.`id` = `musik`.`playlist_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MusikModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\MusikController.php(23): App\Models\MusikModel->getMusikWithPlaylist()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:40:23 --> ErrorException: Undefined array key "playlist_name"
+[Method: GET, Route: musik]
+in APPPATH\Views\backend\musik\musik.php on line 55.
+ 1 APPPATH\Views\backend\musik\musik.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "playlist_name"', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\musik\\musik.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\musik\\musik.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/musik/musik', [], true)
+ 5 APPPATH\Controllers\MusikController.php(29): view('backend/musik/musik', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:40:30 --> ErrorException: Undefined array key "playlist_name"
+[Method: GET, Route: musik]
+in APPPATH\Views\backend\musik\musik.php on line 55.
+ 1 APPPATH\Views\backend\musik\musik.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "playlist_name"', 'C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\musik\\musik.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud-ci\\app\\Views\\backend\\musik\\musik.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/musik/musik', [], true)
+ 5 APPPATH\Controllers\MusikController.php(29): view('backend/musik/musik', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-05 16:48:00 --> mysqli_sql_exception: Unknown column 'musik.playlist_id' in 'on clause' in C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\crud-ci\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musik`....', 0)
+#1 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`....')
+#2 C:\xampp\htdocs\crud-ci\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`....')
+#3 C:\xampp\htdocs\crud-ci\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`....', Array, false)
+#4 C:\xampp\htdocs\crud-ci\app\Models\MusikModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-ci\app\Controllers\MusikController.php(20): App\Models\MusikModel->getMusikWithPlaylists()
+#6 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(933): App\Controllers\MusikController->index()
+#7 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+#8 C:\xampp\htdocs\crud-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\crud-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-05 16:48:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'musik.playlist_id' in 'on clause'
+[Method: GET, Route: musik]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `musik`.`playlist_id` = `playlists`.`id`', [], false)
+ 2 APPPATH\Models\MusikModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\MusikController.php(20): App\Models\MusikModel->getMusikWithPlaylists()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:48:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'musik.playlist_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `musik`.`playlist_id` = `playlists`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `musik`.`playlist_id` = `playlists`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `musik`.`playlist_id` = `playlists`.`id`', [], false)
+ 4 APPPATH\Models\MusikModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\MusikController.php(20): App\Models\MusikModel->getMusikWithPlaylists()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-05 16:48:00 --> [Caused by] mysqli_sql_exception: Unknown column 'musik.playlist_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `musik`.`playlist_id` = `playlists`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `musik`.`playlist_id` = `playlists`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `musik`.`playlist_id` = `playlists`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `musik`.*, `playlists`.`name` AS `playlist_name`
+FROM `musik`
+LEFT JOIN `playlists` ON `musik`.`playlist_id` = `playlists`.`id`', [], false)
+ 5 APPPATH\Models\MusikModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\MusikController.php(20): App\Models\MusikModel->getMusikWithPlaylists()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MusikController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusikController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

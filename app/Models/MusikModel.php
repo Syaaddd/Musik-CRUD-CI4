@@ -6,17 +6,16 @@ use CodeIgniter\Model;
 
 class MusikModel extends Model
 {
-    protected $table            = 'musiks';
-    protected $primaryKey       = 'id';
-    protected $useAutoIncrement = true;
-    protected $returnType       = 'object';
-    protected $useSoftDeletes   = false;
-    protected $protectFields    = true;
-    protected $allowedFields    = ['playlist_id','title','artist','album','duration'];
+    protected $table = 'musik';
+    protected $primaryKey = 'id';
+    protected $allowedFields = ['title', 'artist', 'album', 'duration', 'playlist_name'];
 
-    public function getMusikWithPlaylist()
+    public function getMusikWithPlaylists()
     {
-        return $this->select('musiks.*, playlists.name, playlists.description')
-        ->join('playlists', 'playlists.id = musiks.playlist_id')->findAll();
+        return $this->db->table('musik')
+            ->select('musik.*, playlists.name AS playlist_name') // Pilih nama playlist
+            ->join('playlists', 'musik.playlist_name = playlists.id', 'left') // Gabungkan dengan tabel playlists
+            ->get()
+            ->getResultArray();
     }
 }

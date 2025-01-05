@@ -15,7 +15,7 @@ class CreateMusikTable extends Migration
                 'unsigned'       => true,
                 'auto_increment' => true,
             ],
-            'playlist_id' => [
+            'playlist_name' => [
                 'type' => 'INT',
                 'constraint' => 11,
                 'unsigned' => true
@@ -45,7 +45,7 @@ class CreateMusikTable extends Migration
             ]
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->addForeignKey('playlist_id', 'playlists', 'id', 'CASCADE', 'RESTRICT');
+        $this->forge->addForeignKey('playlist_name', 'playlists', 'id', 'CASCADE', 'RESTRICT');
         $this->forge->createTable('musik');
     }
 
